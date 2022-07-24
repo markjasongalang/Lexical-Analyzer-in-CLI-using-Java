@@ -135,6 +135,7 @@ public class Lexer {
 		} else {
 			return new Token(TT_FLOAT, Float.parseFloat(numStr));
 		}
+		
 	}
 	
 	private boolean isDigit(char ch) {
