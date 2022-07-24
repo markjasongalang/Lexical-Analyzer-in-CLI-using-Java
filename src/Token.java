@@ -28,11 +28,13 @@ public class Token {
 	 * token instance is displayed
 	 */
 	public String toString() {
+		
 		if (integerValue != -1) {
 			return type + ":" + String.valueOf(integerValue);
 		} else if (floatingValue != -1) {
 			return type + ":" + String.valueOf(floatingValue);
 		}
+		
 		return type;
 	}
 	
